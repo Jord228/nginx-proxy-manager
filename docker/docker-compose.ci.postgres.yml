@@ -2,6 +2,7 @@
 services:
 
   cypress:
+        image: cypress/included:latest
     environment:
       CYPRESS_stack: 'postgres'
 
